@@ -1,8 +1,6 @@
-# JSO Docs
+# Julia Smooth Optimizers Docs
 
-# WARNING: Nothing below is updated
-
-Curated repository of tutorials regarding all things JSO.
+Curated repository of tutorials regarding all things [JSO](https://github.com/JuliaSmoothOptimizers/).
 
 [![](https://img.shields.io/badge/go_to-site-3f51b5.svg)](https://jso-docs.github.io)
 
@@ -10,13 +8,21 @@ Curated repository of tutorials regarding all things JSO.
 
 See [CONTRIBUTING](CONTRIBUTING.md) for a full description.
 
-### Guidelines:
+## Development guide
 
-- Follow the folder structure `subject`/`tutorial-name/`tutorial-name.ext`;
-- File and folders name should be `lower-case-separated-by-dashes`;
-- `.jmd` is the main file, but all files have to be generated;
-- Work on environments (`pkg> activate .`) and save the `Manifest.toml`.
-
-## TODO
-
-- Table of contents
+- Install `npm`
+- Run `npm install`
+- Run `npm run css-build -- --watch`
+- Open julia, activate and instantiate the environment.
+  ```
+  julia> # press ]
+  pkg> activate .
+  (...) pkg> instantiate
+  ```
+- Use `Franklin` and `serve`
+  ```
+  pkg> # press backspace
+  julia> using Franklin
+  julia> serve()
+  ```
+- Go to https://localhost:8000 to check that everything is running
