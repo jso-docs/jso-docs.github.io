@@ -1,4 +1,4 @@
-using Pkg, Markdown
+using Pkg, Markdown, JSON
 
 function installed()
   deps = Pkg.dependencies()
@@ -47,3 +47,13 @@ function hfun_list_versions()
   end
   out
 end
+
+function aux_latest()
+  data = JSON.parsefile("_data/docs.json")
+  data = sort(data, by=x->x["date"], rev=true)
+  data[1]
+end
+
+hfun_latest_link() = "https://jso-docs.github.io/" * aux_latest()["repo"]
+hfun_latest_short() = aux_latest()["short"]
+hfun_latest_title() = aux_latest()["title"]

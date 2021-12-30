@@ -1,67 +1,61 @@
-@def title = "JuliaSmoothOptimizers"
+~~~
+<div class="tile is-ancestor">
 
-# Julia Smooth Optimizers
+  <div class="tile is-parent is-4">
+    <div class="tile is-child">
+      <img class="image" src="/assets/jso.png">
+    </div>
+  </div>
 
-\tableofcontents
+  <div class="tile is-parent is-8">
+    <div class="tile is-child">
+      <p class="title">Julia Smooth Optimizers</p>
+      <p>
+        is an organization on GitHub containing a collection of Julia packages for Nonlinear Optimization software development, testing, and benchmarking.
+      </p>
+      <p>
+        We provide tools for building models, access to repositories of problems, subproblem solving, linear algebra, and solving problems.
+        This site will serve as the repository of information about JSO and its packages.
+      </p>
+    </div>
+  </div>
+</div>
 
-Julia Smooth Optimizers (JSO) is an organization on GitHub containing a collection of Julia packages for Nonlinear Optimization software development, testing, and benchmarking.
-We provide tools for building models, access to repositories of problems, subproblem solving, linear algebra, and solving problems.
-This site will serve as the repository of information about JSO and its packages.
+<div class="tile is-ancestor">
 
-## Documentation resources
+  <div class="tile is-parent is-vertical is-8">
+    <div class="tile is-child box">
+      <a href="{{ latest_link }}">
+      <p class="title">Latest addition</p>
+      <div class="content">
+        <p class="subtitle">{{ latest_title }}</p>
+        <p>{{ latest_short }}</p>
+      </div>
+      </a>
+    </div>
 
-We divide our (incomplete) documentation resources in 4 parts, following the idea of [Divio](https://documentation.divio.com):
+    <div class="tile is-child box">
+      <a href="/tutorials/">
+      <p class="title">Tutorials and guides</p>
+      <div class="content">
+        <p class="subtitle">Check all our tutorials and guides here</p>
+      </div>
+      </a>
+    </div>
+  </div>
 
-- [Tutorials](/pages/tutorials/list/): Learning-oriented guides.
-- [How-to guides](/pages/how-to/list/): Goal-oriented guides.
-- [Reference guides](/pages/reference/list/): Technical reference.
-- [Ecosystem discussion](/pages/ecosystem/list/): Understanding-oriented.
+  <div class="tile is-parent is-vertical is-4">
+    <div class="tile is-child box">
+      <p class="title">Ecosystems</p>
+      <div class="content">
+        <p class="subtitle">Understand our packages</p>
 
-Additionally, we have a [wiki](https://github.com/JuliaSmoothOptimizers/Organization/wiki), mostly focused to our students.
+        <a href="/ecosystems/linear-algebra" class="button box is-info">Linear Algebra</a>
+        <a href="/ecosystems/models" class="button box is-danger">Models</a>
+        <a href="/ecosystems/solvers" class="button box is-success">Solvers</a>
+      </div>
+    </div>
+  </div>
 
-## Bug reports and discussions
-
-If you think you found a bug in any of our packages, feel free to open an issue at the specific GitHub repo.
-If should be a link like `https://github.com/JuliaSmoothOptimizers/PACKAGE.jl`.
-
-Focused suggestion and requests can also be opened as issues.
-Before opening a pull request, start an issue or a discussion on the topic, please.
-
-If you want to ask a question that is not suited for a bug report, feel free to start a discussion [here](https://github.com/JuliaSmoothOptimizers/Organization/discussions).
-This forum is for general discussion, so questions about any of our packages are welcome.
-
-## Publications, talks and other references
-
-If you use JSO, we ask that you cite us. In addition to any specific reference that may suggested by the packages you are using, we also ask you to cite:
-
-**JuliaSmoothOptimizers**. Dominique Orban and Abel Soares Siqueira. Zenodo. Apr, 2019. [10.5281/zenodo.2655082](https://doi.org/10.5281/zenodo.2655082)
-```plaintext
-@Misc{jso-2019,
-  author = {D. Orban and A. S. Siqueira},
-  title = {{JuliaSmoothOptimizers}: Infrastructure and Solvers for Continuous Optimization in {J}ulia},
-  doi = {10.5281/zenodo.2655082},
-  URL = {https://juliasmoothoptimizers.github.io},
-  year = {2019},
-}
-```
-
-```julia:./list-publications.jl
-#hideall
-using JSON
-data = JSON.parsefile("_data/bib.json")
-data = sort(data, by=x->x["date"])
-for key in ["Books", "Publications", "Talks", "Classes"]
-  println("### $key")
-  for d in filter(x -> x["key"] == key, data)
-    url = get(d, "link", nothing)
-    if url === nothing
-      print("- $(d["title"]), ")
-    else
-      print("- [$(d["title"])]($url), ")
-    end
-    D = Dates.format(Date(d["date"]), "yyyy-u-d")
-    println(join([d["author"], "_$(D)_", d["where"]], ", "))
-  end
-end
-```
-\textoutput{./list-publications}
+</div>
+~~~

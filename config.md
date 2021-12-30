@@ -4,7 +4,7 @@ website.
 The website_* must be defined for the RSS to work
 -->
 @def website_title = "Julia Smooth Optimizers"
-@def website_descr = "Julia Smooth Optimizers website"
+@def website_descr = "Julia Smooth Optimizers docs"
 @def website_url   = "https://jso-docs.github.io/"
 
 @def author = "Abel Soares Siqueira"
@@ -18,7 +18,7 @@ Add here files or directories that should be ignored by Franklin, otherwise
 these files might be copied and, if markdown, processed by Franklin which
 you might not want. Indicate directories by ending the name with a `/`.
 -->
-@def ignore = ["node_modules/", "franklin", "franklin.pub", "CONTRIBUTING.md"]
+@def ignore = ["node_modules/", "franklin", "franklin.pub"]
 
 <!--
 Add here global latex commands to use throughout your
