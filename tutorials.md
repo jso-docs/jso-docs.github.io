@@ -5,6 +5,7 @@
 This is a curated list of tutorials.
 
 ```julia:./list-docs.jl
+#hideall
 using JSON
 data = JSON.parsefile("_data/docs.json")
 data = sort(data, by=x->x["date"], rev=true)

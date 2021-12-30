@@ -1,26 +1,5 @@
+@def mainpage = true
 ~~~
-<div class="tile is-ancestor">
-
-  <div class="tile is-parent is-4">
-    <div class="tile is-child">
-      <img class="image" src="/assets/jso.png">
-    </div>
-  </div>
-
-  <div class="tile is-parent is-8">
-    <div class="tile is-child">
-      <p class="title">Julia Smooth Optimizers</p>
-      <p>
-        is an organization on GitHub containing a collection of Julia packages for Nonlinear Optimization software development, testing, and benchmarking.
-      </p>
-      <p>
-        We provide tools for building models, access to repositories of problems, subproblem solving, linear algebra, and solving problems.
-        This site will serve as the repository of information about JSO and its packages.
-      </p>
-    </div>
-  </div>
-</div>
-
 <div class="tile is-ancestor">
 
   <div class="tile is-parent is-vertical is-8">

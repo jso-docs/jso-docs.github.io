@@ -16,6 +16,7 @@ If you use JSO, we ask that you cite us. In addition to any specific reference t
 ```
 
 ```julia:./list-publications.jl
+#hideall
 using JSON
 data = JSON.parsefile("_data/bib.json")
 data = sort(data, by=x->x["date"], rev=true)
