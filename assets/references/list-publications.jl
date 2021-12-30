@@ -1,8 +1,7 @@
 # This file was generated, do not modify it. # hide
-#hideall
 using JSON
 data = JSON.parsefile("_data/bib.json")
-data = sort(data, by=x->x["date"])
+data = sort(data, by=x->x["date"], rev=true)
 for key in ["Books", "Publications", "Talks", "Classes"]
   println("### $key")
   for d in filter(x -> x["key"] == key, data)
