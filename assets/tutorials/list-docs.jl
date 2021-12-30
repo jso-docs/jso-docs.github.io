@@ -1,4 +1,5 @@
 # This file was generated, do not modify it. # hide
+#hideall
 using JSON
 data = JSON.parsefile("_data/docs.json")
 data = sort(data, by=x->x["date"], rev=true)
