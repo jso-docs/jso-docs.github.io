@@ -9,4 +9,5 @@ Sass = "322a6be2-4ae8-5d68-aaf1-3e960788d1d9"
 
 [compat]
 Franklin = "0.10"
+JSON = "0.21"
 NodeJS = "1"
