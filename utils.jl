@@ -61,7 +61,7 @@ hfun_latest_title() = aux_latest()["title"]
 
 function hfun_rfig(params)
   repo = split(get(ENV, "GITHUB_REPOSITORY", "/"), "/")[2]
-  file = joinpath(repo, "assets/index/code/output", params[1])
+  file = "/" * joinpath(repo, "assets/index/code/output", params[1])
   caption = join(params[2:end], " ")
   """
   <figure>
