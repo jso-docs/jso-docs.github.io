@@ -1,3 +1,4 @@
+@def title = "Julia Smooth Optimizers"
 @def mainpage = true
 ~~~
 <div class="tile is-ancestor">
