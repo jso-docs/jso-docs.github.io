@@ -41,11 +41,14 @@ jobs:
     #   Julia packages which may be required to successfully build your site.
     #   The last line should be `optimize()` though you may want to give it
     #   specific arguments, see the documentation or ?optimize in the REPL.
-    - run: julia -e '
+    - name: Build
+      run: julia -e '
             using Pkg; Pkg.activate("."); Pkg.instantiate();
             using NodeJS; run(`$(npm_cmd()) install`); run(`$(npm_cmd()) run css-build`);
             using Franklin;
             optimize(prerender=false)'
+    - name: List __site
+      run: ls __site
     - name: Deploy (preview)
       if: github.event_name == 'pull_request' && github.repository == github.event.pull_request.head.repo.full_name # if this build is a PR build and the PR is NOT from a fork
       uses: JamesIves/github-pages-deploy-action@releases/v3
