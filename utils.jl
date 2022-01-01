@@ -63,6 +63,9 @@ function hfun_rfig(params)
   repo = get(ENV, "GITHUB_REPOSITORY", "")
   if repo != ""
     repo = split(repo, "/")[2]
+    if repo == "jso-docs.github.io"
+      repo = ""
+    end
   end
   file = "/" * joinpath(repo, "plots", params[1])
   caption = join(params[2:end], " ")
