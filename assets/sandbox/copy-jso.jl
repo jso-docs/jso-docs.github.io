@@ -1,2 +1,3 @@
 # This file was generated, do not modify it. # hide
-cp("_assets/jso.png", joinpath(@OUTPUT, "jso.png"); force=true)
+mkdir("plots")
+cp("_assets/jso.png", joinpath("plots", "jso.png"); force=true)

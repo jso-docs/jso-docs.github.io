@@ -1,1 +1,1 @@
-"/home/runner/work/jso-docs.github.io/jso-docs.github.io/__site/assets/sandbox/output/jso.png"
+"plots/jso.png"
