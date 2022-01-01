@@ -14,4 +14,4 @@ print("No errors")
 
 \output{./copy-jso.jl}
 
-{{ rfig jso.png JSO logo - testing that rfig works }}
+{{ rfig something.png JSO logo - testing that rfig works }}
