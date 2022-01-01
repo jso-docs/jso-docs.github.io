@@ -60,14 +60,12 @@ hfun_latest_title() = aux_latest()["title"]
 
 
 function hfun_rfig(params)
-  repo = get(ENV, "GITHUB_REPOSITORY", "")
-  if repo != ""
-    repo = split(repo, "/")[2]
-    if repo == "jso-docs.github.io"
-      repo = ""
-    end
+  # Building locally or the main site shouldn't add the link
+  repo = split(get(ENV, "GITHUB_REPOSITORY", "nothing/jso-docs.github.io"), "/")[2]
+  if repo == "jso-docs.github.io"
+    repo = ""
   end
-  file = "/" * joinpath(repo, "plots", params[1])
+  file = "/" * joinpath(repo, "assets/plots", params[1])
   caption = join(params[2:end], " ")
   """
   <figure>
