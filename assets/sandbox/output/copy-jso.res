@@ -1,1 +1,1 @@
-"plots/jso.png"
+nothing
