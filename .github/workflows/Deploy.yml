@@ -48,7 +48,7 @@ jobs:
             using Pkg; Pkg.activate("."); Pkg.instantiate();
             using NodeJS; run(`$(npm_cmd()) install`); run(`$(npm_cmd()) run css-build`);
             using Franklin;
-            optimize(prerender=false)'
+            optimize()'
     - name: List __site
       run: ls __site
     - name: Deploy (preview)
