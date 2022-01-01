@@ -60,7 +60,10 @@ hfun_latest_title() = aux_latest()["title"]
 
 
 function hfun_rfig(params)
-  repo = split(get(ENV, "GITHUB_REPOSITORY", "/"), "/")[2]
+  repo = get(ENV, "GITHUB_REPOSITORY", "")
+  if repo != ""
+    repo = split(repo, "/")[2]
+  end
   output = "assets" * split(@OUTPUT, "assets")[2]
   file = "/" * joinpath(repo, "$output", params[1])
   caption = join(params[2:end], " ")
