@@ -65,7 +65,7 @@ function hfun_rfig(params)
   if repo == "jso-docs.github.io"
     repo = ""
   end
-  file = "/" * joinpath(repo, "assets", params[1])
+  file = "/" * joinpath(repo, "plots", params[1])
   caption = join(params[2:end], " ")
   """
   <figure>
