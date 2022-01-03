@@ -58,7 +58,6 @@ hfun_latest_link() = "https://jso-docs.github.io/" * aux_latest()["repo"]
 hfun_latest_short() = aux_latest()["short"]
 hfun_latest_title() = aux_latest()["title"]
 
-
 function hfun_rfig(params)
   # Building locally or the main site shouldn't add the link
   repo = split(get(ENV, "GITHUB_REPOSITORY", "nothing/jso-docs.github.io"), "/")[2]

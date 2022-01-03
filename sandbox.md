@@ -8,7 +8,7 @@ Where I try configuration things.
 
 ```julia:./copy-jso.jl
 isdir("plots") || mkdir("plots")
-cp("_assets/jso.png", "plots/something.png"; force=true)
+cp("_assets/jso.png", "__site/assets/something.png"; force=true)
 print("No errors")
 ```
 
