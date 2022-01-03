@@ -26,3 +26,6 @@ See [CONTRIBUTING](CONTRIBUTING.md) for a full description.
   julia> serve()
   ```
 - Go to https://localhost:8000 to check that everything is running
+- Create a branch for your work (`git checkout -b mybranch`)
+- Work, make a commit, push
+- Make a Pull Request. An automatic preview should be generated.
