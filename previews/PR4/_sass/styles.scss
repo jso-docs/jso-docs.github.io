@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: JuliaMono;
+  src:
+    local('JuliaMono'),
+    url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Regular.woff2");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+$light-gray: rgb(227, 238, 250);
+$dark-gray: #333333;
+$julia-blue: #4063d8;
+$julia-green: #389826;
+$julia-red: #CB3C33;
+$julia-purple: #9558B2;
+$beige-lighter: #EFF0EB;
+
+$family-sans-serif: "Inter", sans-serif;
+$family-code: "JuliaMono", monospace;
+$primary: $julia-blue;
+$info: $julia-purple;
+$danger: $julia-red;
+$success: $julia-green;
+$body-background-color: $light-gray;
+$footer-background-color: $light-gray;
+$footer-padding: 6rem 1.5rem 3rem;
+
+p {
+  text-align: justify;
+}
+
+pre {
+  background-color: $body-background-color !important;
+}
+
+code {
+  border: 2px solid $primary;
+  border-radius: 4px;
+}
+
+@import "../node_modules/bulma/bulma.sass";
