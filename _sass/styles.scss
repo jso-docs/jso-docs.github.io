@@ -26,6 +26,8 @@ $success: $julia-green;
 $body-background-color: $light-gray;
 $footer-background-color: $light-gray;
 $footer-padding: 6rem 1.5rem 3rem;
+$julia-background: lighten($primary, 41%);
+$plaintext-background: #000;
 
 p {
   text-align: justify;
@@ -33,11 +35,20 @@ p {
 
 pre {
   background-color: $body-background-color !important;
+  margin-bottom: 0px !important;
 }
 
-code {
+.language-julia, .julia {
+  background-color: $julia-background;
   border: 2px solid $primary;
   border-radius: 4px;
+}
+
+.language-plaintext, .plaintext {
+  background-color: $beige-lighter;
+  border: 3px solid black;
+  border-radius: 0px;
+  margin-left: 25px;
 }
 
 @import "../node_modules/bulma/bulma.sass";
