@@ -15,3 +15,24 @@ print("No errors")
 \output{./copy-jso.jl}
 
 {{ rfig something.png JSO logo - testing that rfig works }}
+
+## Icons
+
+We use [Ionicons](https://ionic.io/ionicons), through [Bulma](https://bulma.io/documentation/elements/icon/).
+Icons will have to be pure HTML, so wrap it in `~~~` so Franklin doesn't parse it.
+
+Example:
+```plaintext
+~~~
+<span class="icon has-text-info">
+<ion-icon name="copy"></ion-icon>
+</span>
+~~~
+```
+Generates
+
+~~~
+<span class="icon has-text-info">
+<ion-icon name="copy"></ion-icon>
+</span>
+~~~
