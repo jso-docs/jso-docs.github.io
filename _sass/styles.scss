@@ -36,6 +36,7 @@ p {
 pre {
   background-color: $body-background-color !important;
   margin-bottom: 0px !important;
+  position: relative;
 }
 
 .language-julia, .julia {
@@ -49,6 +50,15 @@ pre {
   border: 3px solid black;
   border-radius: 0px;
   margin-left: 25px;
+}
+
+.copy-button {
+  position: absolute !important;
+  padding: 10px;
+  margin: 30px;
+  top: 0;
+  right: 0;
+  transition: 200ms;
 }
 
 @import "../node_modules/bulma/bulma.sass";
