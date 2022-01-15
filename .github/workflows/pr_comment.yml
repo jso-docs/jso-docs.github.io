@@ -1,9 +1,7 @@
 name: PR Comment # Write a comment in the PR with a link to the preview of the given website
 on:
-  workflow_run:
-    workflows: ["Build and Deploy"]
-    types:
-      - completed
+  pull_request:
+    types: [opened]
 
 jobs:
   pr_comment:
