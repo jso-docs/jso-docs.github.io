@@ -9,16 +9,19 @@
  series        = {Spotlights},
  year          = {2017},
  volume        = {3}
-}" class="button is-small is-rounded is-primary copy-ref"><span class="icon is-small has-text-white"><ion-icon size="large" name="copy"></ion-icon></span></button>
-~~~[Iterative Solution of Symmetric Quasi-Definite Linear Systems](https://doi.org/10.1137/1.9781611974737), **D. Orban, M. Arioli**, SIAM, 2017., 
-- [Iterative Solution of Symmetric Quasi-Definite Linear Systems](https://doi.org/10.1137/1.9781611974737), **D. Orban and M. Arioli**, Society for Industrial and Applied Mathematics, 2017-Apr-1
+}" class="copy-ref">
+<span class="icon is-small has-text-primary">
+<ion-icon size="small" name="copy"></ion-icon>
+</span>
+</button>
+~~~Iterative Solution of Symmetric Quasi-Definite Linear Systems, **D. Orban, M. Arioli**, SIAM, 2017., [10.1137/1.9781611974737](10.1137/1.9781611974737)
 ### Articles
 - ~~~
 <button data-clipboard-text="@article{estrin-orban-saunders-2019c,
  preprint      = {https://dx.doi.org/10.13140/RG.2.2.34725.81123},
  grant         = {NSERC 299010-04},
  pages         = {1102--1124},
- author        = {Estrin, R. and Orban, D. and Saunders, M. A.},
+ author        = {Estrin} and Orban, D. and Saunders, M. A.},
  journal       = {SIAM Journal on Matrix Analysis},
  title         = {LNLQ: An Iterative Method for Least-Norm Problems with an Error Minimization Property},
  gerad         = {G-2018-40},
@@ -26,8 +29,12 @@
  doi           = {10.1137/18M1194948},
  year          = {2019},
  volume        = {40}
-}" class="button is-small is-rounded is-primary copy-ref"><span class="icon is-small has-text-white"><ion-icon size="large" name="copy"></ion-icon></span></button>
-~~~[LNLQ: An Iterative Method for Least-Norm Problems with an Error Minimization Property](https://doi.org/10.1137/18M1194948), **R. Estrin, D. Orban, M. A. Saunders**, SIAM Journal on Matrix Analysis, 40(3), 1102--1124, 2019., 
+}" class="copy-ref">
+<span class="icon is-small has-text-primary">
+<ion-icon size="small" name="copy"></ion-icon>
+</span>
+</button>
+~~~LNLQ: An Iterative Method for Least-Norm Problems with an Error Minimization Property, **Estrin, D. Orban, M. A. Saunders**, SIAM Journal on Matrix Analysis, 40(3), 1102--1124, 2019., [10.1137/18M1194948](10.1137/18M1194948)
 - ~~~
 <button data-clipboard-text="@article{buttari-orban-ruiz-titley-peloquin-2019,
  preprint      = {https://www.gerad.ca/en/papers/G-2018-42/view},
@@ -41,8 +48,12 @@
  doi           = {10.1137/18M1194900},
  year          = {2019},
  volume        = {41}
-}" class="button is-small is-rounded is-primary copy-ref"><span class="icon is-small has-text-white"><ion-icon size="large" name="copy"></ion-icon></span></button>
-~~~[A Tridiagonalization Method for Symmetric Saddle-Point System](https://doi.org/10.1137/18M1194900), **A. Buttari, D. Orban, D. Ruiz, D. Titley-Peloquin**, SIAM Journal on Scientific Computing, 41(5), S409--S432, 2019., 
+}" class="copy-ref">
+<span class="icon is-small has-text-primary">
+<ion-icon size="small" name="copy"></ion-icon>
+</span>
+</button>
+~~~A Tridiagonalization Method for Symmetric Saddle-Point System, **A. Buttari, D. Orban, D. Ruiz, D. Titley-Peloquin**, SIAM Journal on Scientific Computing, 41(5), S409--S432, 2019., [10.1137/18M1194900](10.1137/18M1194900)
 - ~~~
 <button data-clipboard-text="@article{dahito-orban-2019,
  preprint      = {https://www.gerad.ca/en/papers/G-2018-50/view},
@@ -56,8 +67,12 @@
  doi           = {10.1137/18M1204255},
  year          = {2019},
  volume        = {29}
-}" class="button is-small is-rounded is-primary copy-ref"><span class="icon is-small has-text-white"><ion-icon size="large" name="copy"></ion-icon></span></button>
-~~~[The Conjugate Residual Method in Linesearch and Trust-Region Methods](https://doi.org/10.1137/18M1204255), **Dahito, D. Orban**, SIAM Journal on Optimization, 29(3), 1988--2025, 2019., 
+}" class="copy-ref">
+<span class="icon is-small has-text-primary">
+<ion-icon size="small" name="copy"></ion-icon>
+</span>
+</button>
+~~~The Conjugate Residual Method in Linesearch and Trust-Region Methods, **Dahito, D. Orban**, SIAM Journal on Optimization, 29(3), 1988--2025, 2019., [10.1137/18M1204255](10.1137/18M1204255)
 - ~~~
 <button data-clipboard-text="@article{estrin-orban-saunders-2019b,
  preprint      = {https://goo.gl/uyPRk5},
@@ -71,8 +86,12 @@
  doi           = {10.1137/17M1113552},
  year          = {2019},
  volume        = {40}
-}" class="button is-small is-rounded is-primary copy-ref"><span class="icon is-small has-text-white"><ion-icon size="large" name="copy"></ion-icon></span></button>
-~~~[LSLQ: An Iterative Method for Linear Least-Squares with an Error Minimization Property](https://doi.org/10.1137/17M1113552), **Estrin, D. Orban, M. A. Saunders**, SIAM Journal on Matrix Analysis, 40(1), 254--275, 2019., 
+}" class="copy-ref">
+<span class="icon is-small has-text-primary">
+<ion-icon size="small" name="copy"></ion-icon>
+</span>
+</button>
+~~~LSLQ: An Iterative Method for Linear Least-Squares with an Error Minimization Property, **Estrin, D. Orban, M. A. Saunders**, SIAM Journal on Matrix Analysis, 40(1), 254--275, 2019., [10.1137/17M1113552](10.1137/17M1113552)
 - ~~~
 <button data-clipboard-text="@article{orban-siqueira-2020,
  preprint      = {https://www.gerad.ca/en/papers/G-2019-17/view},
@@ -83,14 +102,12 @@
  volume        = {76},
  journal       = {Computational Optimization and Applications},
  title         = {A Regularization Method for Constrained Nonlinear Least Squares}
-}" class="button is-small is-rounded is-primary copy-ref"><span class="icon is-small has-text-white"><ion-icon size="large" name="copy"></ion-icon></span></button>
-~~~[A Regularization Method for Constrained Nonlinear Least Squares](https://doi.org/10.1007/s10589-020-00201-2), **D. Orban, A. S. Siqueira**, Computational Optimization and Applications, 76, 961--989, 2020., 
-- [A regularization method for constrained nonlinear least squares](https://doi.org/10.1007/s10589-020-00201-2), **Dominique Orban and Abel Soares Siqueira**, Computational Optimization and Applications, 76, 961-989, 2020-Jul-1
-- [LNLQ: An Iterative Method for Least-Norm Problems with an Error Minimization Property](https://doi.org/10.1137/18M1194948), **R. Estrin, D. Orban and M. A. Saunders**, SIAM Journal On Matrix Analysis, 40(3), 1102–1124, 2019-Nov-12
-- [A Tridiagonalization Method for Symmetric Saddle-Point System](https://doi.org/10.1137/18M1194900), **A. Buttari, D. Orban, D. Ruiz and D. Titley-Peloquin**, SIAM Journal On Scientific Computing, 41(5), S409–S432, 2019-Oct-29
-- [The Conjugate Residual Method in Linesearch and Trust-Region Methods](https://doi.org/10.1137/18M1204255), **M.-A. Dahito and D. Orban**, SIAM Journal On Optimization, 29(3), 1988–2025, 2019-Jul-25
-- [LSLQ: An Iterative Method for Linear Least-Squares with an Error Minimization Property](https://dx.doi.org/10.1137/17M1113552), **R. Estrin, D. Orban and M. A. Saunders**, SIAM Journal On Matrix Analysis, 40(1), 254-275, 2019-Feb-14
-### Technical Reports
+}" class="copy-ref">
+<span class="icon is-small has-text-primary">
+<ion-icon size="small" name="copy"></ion-icon>
+</span>
+</button>
+~~~A Regularization Method for Constrained Nonlinear Least Squares, **D. Orban, A. S. Siqueira**, Computational Optimization and Applications, 76, 961--989, 2020., [10.1007/s10589-020-00201-2](10.1007/s10589-020-00201-2)
 ### Talks
 - [Otimização na Linguagem Julia](https://docs.google.com/presentation/d/e/2PACX-1vTExSw03IXqsEOOjWeFvvC0FLodFUw5RpIQJLNUALql9jWPjS6GG4fyVeRn3BqehrT5AmfpWYvR4Tpo/pub?start=true&loop=false&delayms=5000&slide=id.g5c57578bdc_0_1264), **Abel S. Siqueira**, Palestra no Congresso Internacional de Biomassa - 4° Expo Biomassa - Curitiba/PR, Brazil., 2019-Jun-26
 - [JuliaSmoothOptimizers](http://abelsiqueira.github.io/assets/2019-05-31-PPGM.ipynb), **Abel S. Siqueira**, Talk at PPGM - UFPR. Curitiba/PR, Brazil., 2019-May-31

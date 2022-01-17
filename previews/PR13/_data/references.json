@@ -54,60 +54,12 @@
     "type": "talk"
   },
   {
-    "title": "The Conjugate Residual Method in Linesearch and Trust-Region Methods",
-    "author": "M.-A. Dahito and D. Orban",
-    "where": "SIAM Journal On Optimization, 29(3), 1988–2025",
-    "date": "2019-07-25",
-    "link": "https://doi.org/10.1137/18M1204255",
-    "type": "article"
-  },
-  {
-    "title": "LNLQ: An Iterative Method for Least-Norm Problems with an Error Minimization Property",
-    "author": "R. Estrin, D. Orban and M. A. Saunders",
-    "where": "SIAM Journal On Matrix Analysis, 40(3), 1102–1124",
-    "date": "2019-11-12",
-    "link": "https://doi.org/10.1137/18M1194948",
-    "type": "article"
-  },
-  {
-    "title": "A Tridiagonalization Method for Symmetric Saddle-Point System",
-    "author": "A. Buttari, D. Orban, D. Ruiz and D. Titley-Peloquin",
-    "where": "SIAM Journal On Scientific Computing, 41(5), S409–S432",
-    "date": "2019-10-29",
-    "link": "https://doi.org/10.1137/18M1194900",
-    "type": "article"
-  },
-  {
-    "title": "Iterative Solution of Symmetric Quasi-Definite Linear Systems",
-    "author": "D. Orban and M. Arioli",
-    "where": "Society for Industrial and Applied Mathematics",
-    "date": "2017-04-01",
-    "link": "https://doi.org/10.1137/1.9781611974737",
-    "type": "book"
-  },
-  {
-    "title": "LSLQ: An Iterative Method for Linear Least-Squares with an Error Minimization Property",
-    "author": "R. Estrin, D. Orban and M. A. Saunders",
-    "where": "SIAM Journal On Matrix Analysis, 40(1), 254-275",
-    "date": "2019-02-14",
-    "link": "https://dx.doi.org/10.1137/17M1113552",
-    "type": "article"
-  },
-  {
     "title": "Méthodes d'optimisation et contrôle optimal",
     "author": "Dominique Orban",
     "where": "Polytechnique Montréal",
     "date": "2019-01-01",
     "link": "https://www.polymtl.ca/programmes/cours/methodes-doptimisation-et-controle-optimal",
     "type": "classes"
-  },
-  {
-    "title": "A regularization method for constrained nonlinear least squares",
-    "author": "Dominique Orban and Abel Soares Siqueira",
-    "where": "Computational Optimization and Applications, 76, 961-989",
-    "date": "2020-07-01",
-    "link": "https://doi.org/10.1007/s10589-020-00201-2",
-    "type": "article"
   },
   {
     "title": "JuliaSmoothOptimizers",

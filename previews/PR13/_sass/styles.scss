@@ -61,4 +61,29 @@ pre {
   transition: 200ms;
 }
 
+.copy-ref {
+  border-width: 0px !important;
+  background-color: transparent !important;
+  transition: 200ms;
+  padding: 1px !important;
+
+  :hover {
+    background-color: $primary;
+    transition: 200ms;
+  }
+}
+
+.copy-ref span {
+  transition: 200ms;
+  padding: 1px !important;
+  :hover {
+    color: $julia-background;
+    transition: 200ms;
+  }
+}
+
+.references ul li {
+  margin-bottom: 15px;
+}
+
 @import "../node_modules/bulma/bulma.sass";
