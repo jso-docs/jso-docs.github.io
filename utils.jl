@@ -10,7 +10,47 @@ function installed()
   return installs
 end
 
-const jso_pkgs = ["ADNLPModels", "CaNNOLeS", "DCISolver", "JSOSolvers", "LinearOperators", "ManualNLPModels", "NLPModels", "NLPModelsIpopt", "NLPModelsJuMP", "Percival", "SolverBenchmark", "SolverCore", "SolverTools"]
+const jso_pkgs = [
+  "ADNLPModels",
+  "AMD",
+  "AmplNLReader",
+  "BasicLU",
+  "BenchmarkProfiles",
+  "BundleAdjustmentModels",
+  "CaNNOLeS",
+  "CUTEst",
+  "DCISolver",
+  "HSL",
+  "JSOSolvers",
+  "Krylov",
+  "LDLFactorizations",
+  "LimitedLDLFactorizations",
+  "LinearOperators",
+  "LLSModels",
+  "ManualNLPModels",
+  "MUMPS",
+  "NLPModels",
+  "NLPModelsIpopt",
+  "NLPModelsJuMP",
+  "NLPModelsKnitro",
+  "NLPModelsModifiers",
+  "NLPModelsTest",
+  "NLSProblems",
+  "OptimizationProblems",
+  "PDENLPModels",
+  "Percival",
+  "PROPACK",
+  "QPSReader",
+  "QRMumps",
+  "QuadraticModels",
+  "RipQP",
+  "SolverBenchmark",
+  "SolverCore",
+  "SolverTest",
+  "SolverTools",
+  "SparseMatricesCOO",
+  "SuiteSparseMatrixCollection",
+]
 
 function badge(name, version)
   color, lbl_color = if name in jso_pkgs
