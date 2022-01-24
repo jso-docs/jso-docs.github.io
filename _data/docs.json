@@ -22,5 +22,11 @@
     "repo": "create-a-manual-model",
     "short": "Write a simple model with total control over its derivatives.",
     "date": "2021-01-01"
-  }
+  },
+  {
+    "title": "Solve a PDE-constrained optimization problem",
+    "repo": "solve-pdenlpmodels-with-jsosolvers",
+    "short": "Solve a discretized PDE-constrained optimization problem using DCISolver and Ipopt.",
+    "date": "2022-01-24"
+  },
 ]
