@@ -28,5 +28,5 @@
     "repo": "solve-pdenlpmodels-with-jsosolvers",
     "short": "Solve a discretized PDE-constrained optimization problem using DCISolver and Ipopt.",
     "date": "2022-01-24"
-  },
+  }
 ]
