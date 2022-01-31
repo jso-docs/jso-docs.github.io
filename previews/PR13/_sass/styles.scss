@@ -65,7 +65,7 @@ pre {
   border-width: 0px !important;
   background-color: transparent !important;
   transition: 200ms;
-  padding: 1px !important;
+  padding: 2px !important;
 
   :hover {
     background-color: $primary;
@@ -75,7 +75,7 @@ pre {
 
 .copy-ref span {
   transition: 200ms;
-  padding: 1px !important;
+  padding: 2px !important;
   :hover {
     color: $julia-background;
     transition: 200ms;
