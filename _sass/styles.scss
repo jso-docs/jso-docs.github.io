@@ -7,7 +7,7 @@
     url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Regular.woff2");
 }
 
-@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
 
 $light-gray: rgb(227, 238, 250);
 $dark-gray: #333333;
@@ -28,6 +28,12 @@ $footer-background-color: $light-gray;
 $footer-padding: 6rem 1.5rem 3rem;
 $julia-background: lighten($primary, 41%);
 $plaintext-background: #000;
+
+@import "../node_modules/bulma/bulma.sass";
+
+.title {
+  font-family: "Nunito", sans-serif !important;
+}
 
 p {
   text-align: justify;
@@ -85,5 +91,3 @@ pre {
 .references ul li {
   margin-bottom: 15px;
 }
-
-@import "../node_modules/bulma/bulma.sass";
