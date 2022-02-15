@@ -100,5 +100,21 @@
     "date": "2020-09-02",
     "link": "https://www.youtube.com/playlist?list=PLOOY0eChA1ux1LAmJZNBySGeqR0kwNZmQ",
     "type": "classes"
+  },
+  {
+    "title": "Large scale optimization solvers in Julia for data science",
+    "author": "Tangi Migot",
+    "date": "2021-11-15",
+    "where": "IVADO Digital October (online).",
+    "link": "https://www.youtube.com/watch?v=uMKQTUfGkWw&",
+    "type": "talk"
+  },
+  {
+    "title": "Krylov.jl : une bibliothèque Julia pour l’algèbre linéaire numérique",
+    "author": "Alexis Montoison",
+    "date": "2021-11-16",
+    "where": "IVADO Digital October (online).",
+    "link": "https://www.youtube.com/watch?v=9brh5XHcC8o",
+    "type": "talk"
   }
 ]
