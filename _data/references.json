@@ -116,5 +116,13 @@
     "where": "IVADO Digital October (online).",
     "link": "https://www.youtube.com/watch?v=9brh5XHcC8o",
     "type": "talk"
+  },
+  {
+    "title": "A roadmap for JuliaSmoothOptimizers and its NLPModels API",
+    "author": "Tangi Migot and Alexis Montoison",
+    "date": "2022-02-15",
+    "where": "JuMP nonlinear developers call (online).",
+    "link": "https://youtu.be/FsQJ6NEUF6g",
+    "type": "talk"
   }
 ]
