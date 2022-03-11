@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Introduction to Linear Operators",
+    "repo": "introduction-to-linear-operators",
+    "short": "Learn about LinearOperators.jl",
+    "date": "2021-01-01"
+  },
+  {
+    "title": "Creating a JSO-compliant solver",
+    "repo": "creating-a-jso-compliant-solver",
+    "short": "A thorough guide for developers, from 0 to benchmarking.",
+    "date": "2021-01-01"
+  },
+  {
+    "title": "How to solve an optimization problem with Ipopt and NLPModels",
+    "repo": "solve-an-optimization-problem-with-ipopt",
+    "short": "Quick guide to help you write your problem and solve it using Ipopt",
+    "date": "2021-01-01"
+  },
+  {
+    "title": "How to create a model from the objective function and its derivatives",
+    "repo": "create-a-manual-model",
+    "short": "Write a simple model with total control over its derivatives.",
+    "date": "2021-01-01"
+  },
+  {
+    "title": "Solve a PDE-constrained optimization problem",
+    "repo": "solve-pdenlpmodels-with-jsosolvers",
+    "short": "Solve a discretized PDE-constrained optimization problem using DCISolver and Ipopt.",
+    "date": "2022-01-24"
+  },
+  {
+    "title": "Introduction to QuadraticModels",
+    "repo": "introduction-to-quadraticmodels",
+    "short": "Learn about QuadraticModels.jl",
+    "date": "2022-03-07"
+  }
+]
