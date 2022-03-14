@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
 
 @font-face {
   font-family: JuliaMono;
@@ -7,9 +8,8 @@
     url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Regular.woff2");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
 
-$light-gray: rgb(227, 238, 250);
+$light-gray: #eee;
 $dark-gray: #333333;
 $julia-blue: #4063d8;
 $julia-green: #389826;
@@ -20,6 +20,7 @@ $beige-lighter: #EFF0EB;
 $family-sans-serif: "Inter", sans-serif;
 $family-code: "JuliaMono", monospace;
 $primary: $julia-blue;
+$link: darken($julia-green, 20%);
 $info: $julia-purple;
 $danger: $julia-red;
 $success: $julia-green;
@@ -30,6 +31,43 @@ $julia-background: lighten($primary, 41%);
 $plaintext-background: #000;
 
 @import "../node_modules/bulma/bulma.sass";
+
+$my-color-list: (
+  white: white,
+  light-gray: $light-gray,
+  dark-gray: $dark-gray,
+  black: black,
+  julia-blue: $julia-blue,
+  julia-green: $julia-green,
+  julia-red: $julia-red,
+  julia-purple: $julia-purple,
+  primary: $primary,
+  info: $info,
+  danger: $danger,
+  success: $success,
+  primary-light: $primary-light,
+  info-light: $info-light,
+  danger-light: $danger-light,
+  success-light: $success-light,
+);
+
+@each $key,$val in $my-color-list {
+  .border-#{$key} {
+    border: 1px solid #{$val};
+  }
+
+  .on-hover-#{$key}:hover {
+    background-color: #{$val};
+    transition: 400ms;
+  }
+
+  .on-hover-text-#{$key}:hover {
+    color: #{$val};
+    transition: 400ms;
+  }
+}
+
+// -------------------------
 
 .title {
   font-family: "Nunito", sans-serif !important;
@@ -90,4 +128,19 @@ pre {
 
 .references ul li {
   margin-bottom: 15px;
+}
+
+.news-item {
+  border-left: 2px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  transition: 400ms;
+  &:hover {
+    border-left: 2px solid $primary;
+    background: $primary-light;
+    padding-left: 15px;
+    padding-right: 5px;
+    transition: 400ms;
+  }
 }
