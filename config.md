@@ -4,13 +4,19 @@ website.
 The website_* must be defined for the RSS to work
 -->
 @def website_title = "Julia Smooth Optimizers"
-@def website_descr = "Julia Smooth Optimizers docs"
+@def website_descr = "Julia Smooth Optimizers"
 
 @def author = "Abel Soares Siqueira"
 
 @def mintoclevel = 2
 @def prepath     = get(ENV, "PREVIEW_FRANKLIN_PREPATH", "") # In the third argument put the prepath you normally use
 @def website_url = get(ENV, "PREVIEW_FRANKLIN_WEBSITE_URL", "https://jso-docs.github.io") # Just put the website name
+
+generate_rss = true
+rss_website_title = "Julia Smooth Optimizers"
+rss_website_descr = "Julia Smooth Optimizers"
+rss_website_url   = "https://jso-docs.github.io"
+rss_full_content = true
 
 <!--
 Add here files or directories that should be ignored by Franklin, otherwise
