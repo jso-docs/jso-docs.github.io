@@ -3,9 +3,8 @@
 
 ~~~
 <div class="tile is-ancestor">
-  <div class="tile is-vertical is-6>
-    <div class="tile">
-    <div class="tile is-parent is-vertical">
+  <div class="tile is-vertical is-6">
+    <div class="tile is-parent">
       <div class="tile is-child box has-background-white">
         <p class="subtitle has-text-weight-bold">
           <a href="/news-and-blogposts/" class="has-text-weight-bold">
@@ -17,7 +16,7 @@
       </div>
     </div>
 
-    <div class="tile is-parent is-vertical">
+    <div class="tile is-parent">
       <div class="tile is-child box has-background-white">
         <p class="subtitle has-text-weight-bold">
           <a href="/ecosystems/" class="has-text-weight-bold">
@@ -39,12 +38,12 @@
             <a href="/ecosystems/solvers/"        class="button box is-success">Solvers</a>
           </div>
         </div>
+
       </div>
     </div>
-
   </div>
 
-  <div class="tile is-parent is-vertical is-6">
+  <div class="tile is-parent is-6">
     <div class="tile is-child box has-background-white">
       <p class="subtitle">
         <a href="/tutorials/" class="has-text-weight-bold">
