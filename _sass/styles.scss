@@ -133,11 +133,13 @@ pre {
 .news-item {
   border-left: 2px solid black;
   padding-left: 10px;
+  padding-right: 10px;
   transition: 400ms;
   &:hover {
     border-left: 2px solid $primary;
     background: $primary-light;
     padding-left: 15px;
+    padding-right: 5px;
     transition: 400ms;
   }
 }
