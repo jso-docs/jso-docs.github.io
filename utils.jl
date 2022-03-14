@@ -145,3 +145,32 @@ end
   end
   return output
 end
+
+@delay function hfun_list_news_short()
+  year = sort(readdir("news-and-blogposts"), rev=true)[1]
+  post = sort(readdir("news-and-blogposts/$year"), rev=true)[1]
+  filename = "news-and-blogposts/$year/$post"
+  link = "/" * splitext(filename)[1] * "/"
+  title = pagevar(filename, :title)
+  date = basename(filename)[1:10]
+  excerpt = pagevar(filename, :rss_description)
+
+  output = """
+  <div class="news-item">
+    <a href="$link">
+      <span class="is-size-7 has-text-grey-dark">
+        $date
+      </span>
+      <br>
+      <span class="is-size-4 has-text-primary">
+        $title
+      </span>
+      <br>
+      <p class="has-text-grey-dark is-size-6">
+        $excerpt
+      </p>
+    </a>
+  </div>
+  """
+  return output
+end

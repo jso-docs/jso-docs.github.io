@@ -12,7 +12,7 @@
           </a>
         </p>
 
-        {{ list_news }}
+        {{ list_news_short }}
       </div>
     </div>
 

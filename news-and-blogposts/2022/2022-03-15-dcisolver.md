@@ -1,3 +1,6 @@
+@def title = "New package: DCISolver.jl"
+@def rss_description = "We are very happy to announce the publication in the Journal of Open Source Software of the paper DCISolver.jl: A Julia Solver for Nonlinear Optimization using Dynamic Control of Infeasibility."
+
 # New package: DCISolver.jl
 
 We are very happy to announce the publication in the Journal of Open Source Software of the paper **DCISolver.jl: A Julia Solver for Nonlinear Optimization using Dynamic Control of Infeasibility**. It is accessible in open access [here](https://joss.theoj.org/papers/10.21105/joss.03991).
@@ -35,4 +38,4 @@ stats = dci(nlp)
 > Dynamic control of infeasibility in equality constrained optimization.
 > SIAM Journal on Optimization, 19(3), 1299-1325 (2008).
 > [10.1007/s10589-020-00201-2](https://doi.org/10.1007/s10589-020-00201-2)
-> 
+>
