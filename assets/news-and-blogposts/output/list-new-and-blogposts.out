@@ -1,0 +1,17 @@
+~~~
+<div class="news-item">
+  <a href="/news-and-blogposts/2022/2022-03-12-new-site/">
+    <span class="is-size-7 has-text-grey-dark">
+      2022-03-12
+    </span>
+    <br>
+    <span class="is-size-4 has-text-primary">
+      Moving our site
+    </span>
+    <br>
+    <span class="has-text-grey-dark">
+      The Julia Smooth Optimizers organization has moved to this new website, where we will aggregate all our tutorials and news.
+    </span>
+  </a>
+</div>
+~~~
