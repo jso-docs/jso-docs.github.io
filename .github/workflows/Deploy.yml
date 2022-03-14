@@ -48,7 +48,6 @@ jobs:
             using Pkg; Pkg.activate("."); Pkg.instantiate();
             using NodeJS; run(`$(npm_cmd()) install`); run(`$(npm_cmd()) run css-build`);
             using Franklin;
-            optimize(prerender=false, suppress_errors=false);
             optimize(prerender=false, suppress_errors=false)'
     - name: List again
       run: ls -R
