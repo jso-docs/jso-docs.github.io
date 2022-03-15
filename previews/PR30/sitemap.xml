@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/tutorials/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/news-and-blogposts/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/ecosystems/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/404/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/ecosystems/linear-algebra/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/news-and-blogposts/2022/2022-03-12-new-site/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/references/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/contributing/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/ecosystems/models/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/sandbox/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://jso-docs.netlify.app/previews/PR30/ecosystems/solvers/index.html</loc>
+    <lastmod>2022-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+</urlset>

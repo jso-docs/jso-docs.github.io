@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  Julia Smooth Optimizers  ]]>
+    </title>
+    <link> https://jso-docs.netlify.app/previews/PR30/ </link>
+    <description>
+      <![CDATA[  Julia Smooth Optimizers  ]]>
+    </description>
+    <atom:link
+      href="https://jso-docs.netlify.app/previews/PR30/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Moving our site  ]]>
+  </title>
+  <link> https://jso-docs.netlify.app/previews/PR30/news-and-blogposts/2022/2022-03-12-new-site/index.html </link>
+  <guid> https://jso-docs.netlify.app/previews/PR30/news-and-blogposts/2022/2022-03-12-new-site/index.html </guid>
+  <description>
+    <![CDATA[  The Julia Smooth Optimizers organization has moved to this new website, where we will aggregate all our tutorials and news.  ]]>
+  </description>  
+    
+  <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Abel Soares Siqueira</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>
