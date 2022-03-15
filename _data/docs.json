@@ -34,5 +34,11 @@
     "repo": "introduction-to-quadraticmodels",
     "short": "Learn about QuadraticModels.jl",
     "date": "2022-03-07"
+  },
+  {
+    "title": "Introduction to CUTEst",
+    "repo": "introduction-to-cutest",
+    "short": "CUTEst.jl was the first package in the JSO ecosystem. It is an essential part of the nonlinear optimization academic research landscape.",
+    "date": "2022-03-15"
   }
 ]
