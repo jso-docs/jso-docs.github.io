@@ -1,4 +1,4 @@
-Sitemap: https://jso-docs.github.io/sitemap.xml
+Sitemap: https://jso-docs.netlify.app/previews/PR31/sitemap.xml
 
 User-agent: *
 Disallow:
