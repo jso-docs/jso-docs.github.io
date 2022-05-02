@@ -16,7 +16,18 @@ for entry in data
       <p class="has-text-grey-dark is-size-6">
         $short
       </p>
-    </a>
+    </a>~~~""")
+  for tag in entry["tags"]
+    println("""~~~
+    <button class="button is-small is-link is-outlined">
+      <span class="icon is-small">
+        <ion-icon name="pricetag"></ion-icon>
+      </span>
+      <span>$tag</span>
+    </button>
+    ~~~""")
+  end
+  println("""~~~
   </div>
   ~~~""")
 end

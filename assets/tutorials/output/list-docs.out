@@ -8,7 +8,32 @@
     <p class="has-text-grey-dark is-size-6">
       CUTEst.jl was the first package in the JSO ecosystem. It is an essential part of the nonlinear optimization academic research landscape.
     </p>
-  </a>
+  </a>~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>introduction</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>model</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>test</span>
+</button>
+~~~
+~~~
 </div>
 ~~~
 ~~~
@@ -21,7 +46,32 @@
     <p class="has-text-grey-dark is-size-6">
       Learn about QuadraticModels.jl
     </p>
-  </a>
+  </a>~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>introduction</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>model</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>solver</span>
+</button>
+~~~
+~~~
 </div>
 ~~~
 ~~~
@@ -34,7 +84,24 @@
     <p class="has-text-grey-dark is-size-6">
       Solve a discretized PDE-constrained optimization problem using DCISolver and Ipopt.
     </p>
-  </a>
+  </a>~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>pde</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>solve</span>
+</button>
+~~~
+~~~
 </div>
 ~~~
 ~~~
@@ -47,7 +114,24 @@
     <p class="has-text-grey-dark is-size-6">
       Learn about LinearOperators.jl
     </p>
-  </a>
+  </a>~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>introduction</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>linear-operators</span>
+</button>
+~~~
+~~~
 </div>
 ~~~
 ~~~
@@ -60,7 +144,24 @@
     <p class="has-text-grey-dark is-size-6">
       A thorough guide for developers, from 0 to benchmarking.
     </p>
-  </a>
+  </a>~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>solver</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>benchmark</span>
+</button>
+~~~
+~~~
 </div>
 ~~~
 ~~~
@@ -73,7 +174,40 @@
     <p class="has-text-grey-dark is-size-6">
       Quick guide to help you write your problem and solve it using Ipopt
     </p>
-  </a>
+  </a>~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>solve</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>problem</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>model</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>short</span>
+</button>
+~~~
+~~~
 </div>
 ~~~
 ~~~
@@ -86,6 +220,39 @@
     <p class="has-text-grey-dark is-size-6">
       Write a simple model with total control over its derivatives.
     </p>
-  </a>
+  </a>~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>model</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>logistic-regression</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>manual</span>
+</button>
+~~~
+~~~
+<button class="button is-small is-link is-outlined">
+  <span class="icon is-small">
+    <ion-icon name="pricetag"></ion-icon>
+  </span>
+  <span>comparison</span>
+</button>
+~~~
+~~~
 </div>
 ~~~
