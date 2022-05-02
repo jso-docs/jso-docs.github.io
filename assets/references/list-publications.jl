@@ -44,7 +44,7 @@ for (type_, title) in [
     ("article", "Articles"),
     ("techreport", "Technical Reports")
   ]
-  selected = sort(filter(x -> x.type == type_, bib), by=x -> x.year)
+  selected = sort(filter(x -> x.type == type_, bib), by=x -> x.year, rev=true)
   length(selected) == 0 && continue
 
   println("### $title")
