@@ -174,3 +174,11 @@ end
   """
   return output
 end
+
+function hfun_process_tutorials_data()
+  data = readlines("_data/docs.json")
+  data[1] = "const data = " * data[1]
+  return """<script type="text/javascript">
+  $(join(data))
+  </script>"""
+end
