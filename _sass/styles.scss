@@ -144,3 +144,8 @@ pre {
     transition: 400ms;
   }
 }
+
+.is-height-zero {
+  height: 0px;
+  overflow: hidden;
+}
