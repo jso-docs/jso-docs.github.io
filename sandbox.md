@@ -36,3 +36,9 @@ Generates
 <ion-icon name="copy"></ion-icon>
 </span>
 ~~~
+
+## Test list_versions
+
+Check sandbox.jl (it is not actually being loaded).
+
+{{ list_versions }}

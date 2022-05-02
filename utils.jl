@@ -62,7 +62,13 @@ function badge(name, version)
     "666", "999"
   end
 
-  "<img class=\"badge\" src=\"https://img.shields.io/badge/$name-$version-$color?style=flat-square&labelColor=$lbl_color\">"
+  badge_img = "<img class=\"badge\" src=\"https://img.shields.io/badge/$name-$version-$color?style=flat-square&labelColor=$lbl_color\">"
+  if name in jso_pkgs
+    link = "https://juliasmoothoptimizers.github.io/$name.jl/stable/"
+    "<a href=\"$link\">$badge_img</a>"
+  else
+    badge_img
+  end
 end
 
 function hfun_list_versions()
