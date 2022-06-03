@@ -181,9 +181,9 @@ version = "2.3.2"
 
 [[deps.Literate]]
 deps = ["Base64", "IOCapture", "JSON", "REPL"]
-git-tree-sha1 = "28834c7d79a7c3efeeb8d374b598f584324e9f8a"
+git-tree-sha1 = "5b5ec7696d40868945c407f28a6672a230448b70"
 uuid = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
-version = "2.13.3"
+version = "2.13.4"
 
 [[deps.LiveServer]]
 deps = ["Crayons", "FileWatching", "HTTP", "Pkg", "Sockets", "Test"]
