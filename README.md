@@ -1,3 +1,7 @@
+# ⚠️ Moved to https://github.com/JuliaSmoothOptimizers/JuliaSmoothOptimizers.github.io
+
+---
+
 # Julia Smooth Optimizers Docs
 
 Curated repository of tutorials regarding all things [JSO](https://github.com/JuliaSmoothOptimizers/).
