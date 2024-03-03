@@ -1,6 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.10.1"
+julia_version = "1.10.2"
 manifest_format = "2.0"
 project_hash = "be91012374e509e810599b5ce97dba70656d7f3b"
 
@@ -224,9 +224,9 @@ uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 [[deps.LinearOperators]]
 deps = ["FastClosures", "LDLFactorizations", "LinearAlgebra", "Printf", "Requires", "SparseArrays", "TimerOutputs"]
-git-tree-sha1 = "58e2ca62646a62e18f86253b9c2a2d821c2d934b"
+git-tree-sha1 = "f06df3a46255879cbccae1b5b6dcb16994c31be7"
 uuid = "5c8ed15e-5a4c-59e4-a42b-c7e8811fb125"
-version = "2.6.0"
+version = "2.7.0"
 
     [deps.LinearOperators.extensions]
     LinearOperatorsChainRulesCoreExt = "ChainRulesCore"
@@ -333,9 +333,9 @@ version = "1.2.0"
 
 [[deps.Preferences]]
 deps = ["TOML"]
-git-tree-sha1 = "00805cd429dcb4870060ff49ef443486c262e38e"
+git-tree-sha1 = "9e8fed0505b0c15b4c1295fd59ea47b411c019cf"
 uuid = "21216c6a-2e73-6563-6e65-726566657250"
-version = "1.4.1"
+version = "1.4.2"
 
 [[deps.Printf]]
 deps = ["Unicode"]
