@@ -169,9 +169,9 @@ version = "1.14.0"
 
 [[deps.JSONSchema]]
 deps = ["Downloads", "JSON", "JSON3", "URIs"]
-git-tree-sha1 = "12b043193737b6f3224715c642a1ae2097b0e75d"
+git-tree-sha1 = "243f1cdb476835d7c249deb9f29ad6b7827da7d3"
 uuid = "7d188eb4-7ad8-530c-ae41-71a32a6d4692"
-version = "1.4.0"
+version = "1.4.1"
 
 [[deps.LibCURL]]
 deps = ["LibCURL_jll", "MozillaCACerts_jll"]
