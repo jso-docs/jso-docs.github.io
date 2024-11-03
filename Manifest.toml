@@ -17,15 +17,16 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 version = "1.11.0"
 
 [[deps.BibInternal]]
-git-tree-sha1 = "78aa378482bf6f338eef8f2440fb62a75ab1aaa3"
+deps = ["TestItems"]
+git-tree-sha1 = "b3107800faf461eca3281f89f8d768f4b3e99969"
 uuid = "2027ae74-3657-4b95-ae00-e2f7d55c3e64"
-version = "0.3.6"
+version = "0.3.7"
 
 [[deps.BibParser]]
-deps = ["BibInternal", "DataStructures", "Dates", "JSONSchema", "YAML"]
-git-tree-sha1 = "f24884311dceb5f8eafe11809b6f1d867b489a46"
+deps = ["BibInternal", "DataStructures", "Dates", "JSONSchema", "TestItems", "YAML"]
+git-tree-sha1 = "33478bed83bd124ea8ecd9161b3918fb4c70e529"
 uuid = "13533e5b-e1c2-4e57-8cef-cac5e52f6474"
-version = "0.2.1"
+version = "0.2.2"
 
 [[deps.Bibliography]]
 deps = ["BibInternal", "BibParser", "DataStructures", "Dates", "FileIO", "YAML"]
@@ -133,9 +134,9 @@ version = "0.10.2"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "ConcurrentUtilities", "Dates", "ExceptionUnwrapping", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
-git-tree-sha1 = "d1d712be3164d61d1fb98e7ce9bcbc6cc06b45ed"
+git-tree-sha1 = "bc3f416a965ae61968c20d0ad867556367f2817d"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "1.10.8"
+version = "1.10.9"
 
 [[deps.IOCapture]]
 deps = ["Logging", "Random"]
@@ -422,6 +423,11 @@ version = "1.10.0"
 deps = ["InteractiveUtils", "Logging", "Random", "Serialization"]
 uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 version = "1.11.0"
+
+[[deps.TestItems]]
+git-tree-sha1 = "42fd9023fef18b9b78c8343a4e2f3813ffbcefcb"
+uuid = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
+version = "1.0.0"
 
 [[deps.TimerOutputs]]
 deps = ["ExprTools", "Printf"]
